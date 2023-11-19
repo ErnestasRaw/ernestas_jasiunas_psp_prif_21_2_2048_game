@@ -1,0 +1,23 @@
+name: ernestas_jasiunas_psp_prif_21_2_2048_game
+description: "2048 žaidimas - namų darbas programų sistemų projektavimo moduliui."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  logging: ^1.2.0
+  device_info_plus: ^9.0.3    
+  flutter_lints: ^3.0.0
+  test: ^1.24.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
